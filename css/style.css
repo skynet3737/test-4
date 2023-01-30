@@ -345,7 +345,7 @@ line-height: 1.71;
 }
 
 .command-text {
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 
     font-size: 16px;
     line-height: 1.18;
@@ -432,6 +432,11 @@ line-height: 1.71;
     background-color: var(--bg-footer);
 }
 
+.footer-info {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-address .address {
     display: inline-block;
     margin-bottom: 9px;
@@ -460,6 +465,39 @@ line-height: 1.71;
 .footer-link:hover,
 .footer-link:focus {
     color: var(--blue);
+}
+
+.footer-block {
+    margin-left: 70px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--bg-color);
+}
+
+.footer-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icon {
+    display: flex;
+    padding: 12px;
+
+    color: var(--bg-color);
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: var(--blue);
 }
 
 
